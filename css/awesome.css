@@ -6,10 +6,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 19px;
+  margin-bottom: 68px;
 }
 .card {
   width: 350px;
-  margin: 68px 0 20px 0;
+  margin-bottom: 20px;
 }
 .card-img {
   width: 70px;
@@ -29,11 +30,11 @@
   object-position: center; */
   }
 .card-title {
-  margin-bottom: 30px;
+  margin: 30px 0 16px;
   text-align: center;
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 20px;
   line-height: 27px;
   line-height: 27px;
@@ -41,7 +42,7 @@
 .card-text {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 19px;
   text-align: center;

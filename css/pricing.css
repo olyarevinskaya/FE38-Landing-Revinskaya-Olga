@@ -1,0 +1,53 @@
+.PRICING {
+  padding: 80px 0;
+  background-color: #F5F5F5;
+}
+.list {
+  margin: 0 15px;
+}
+.list_tarif {
+ width: 340px;
+ font family: Open Sans;
+ font style: bold;
+ color: #fff;
+ text-align: center;
+ font size: 20px;
+ line height: 27px;
+ background-color: #333333;
+ margin-bottom: 2px;
+}
+.list_price {
+ width: 340px;
+ font family: Raleway;
+ font style: Bold;
+ font size: 35px;
+ line height: 41px;
+ color: #fff;
+ text-align: center;
+ background-color: #333333;
+ margin-bottom: 2px;
+
+}
+.list_application {
+  width: 340px;
+  font family: Open Sans;
+  font style: SemiBold;
+  font size: 14px;
+  line height: 19px;
+  color: #fff;
+  text-align: center;
+  background-color: #333333;
+  margin-bottom: 4px;
+
+}
+.list_free {
+  width: 340px;
+  font family: Open Sans;
+  font style: Regular;
+  font size: 14px;
+  line height: 19px;
+  color: #86878B;
+  text-align: center;
+  margin-bottom: 4px;
+  background-color: #fff;
+}

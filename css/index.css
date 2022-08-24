@@ -1,5 +1,6 @@
 @import url("../css/cdn.css");
 @import url("../css/awesome.css");
+@import url("../css/pricing.css");
 
 * {
   box-sizing: border-box;
@@ -10,9 +11,6 @@
  }
 .html {
   font-family: 'Open Sans', 'Raleway', sans-serif;
-}
-.AWESOME {
-  padding: 80px 0 116px;
 }
 .container {
  margin: auto;
@@ -33,8 +31,17 @@
   border: 1px solid #E72424;
   margin: 34px auto 40px;
 }
+.text {
+  font-size: 14px;
+  text-align: center;
+  color: #868788;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 68px;
+}
 .wrap {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-}
+  }

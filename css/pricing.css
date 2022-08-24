@@ -1,4 +1,4 @@
-.PRICING {
+.pricing {
   padding: 80px 0;
   background-color: #F5F5F5;
 }
@@ -6,6 +6,7 @@
   margin: 0 15px;
 }
 .list_tarif {
+ padding: 12px 0;
  width: 340px;
  font family: Open Sans;
  font style: bold;
@@ -17,6 +18,7 @@
  margin-bottom: 2px;
 }
 .list_price {
+ padding: 26px 0;
  width: 340px;
  font family: Raleway;
  font style: Bold;
@@ -29,6 +31,7 @@
 
 }
 .list_application {
+  padding: 14px 0;
   width: 340px;
   font family: Open Sans;
   font style: SemiBold;
@@ -41,6 +44,7 @@
 
 }
 .list_free {
+  padding: 10px 0;
   width: 340px;
   font family: Open Sans;
   font style: Regular;

@@ -55,3 +55,6 @@
   margin-bottom: 4px;
   background-color: #fff;
 }
+.list_free:last-child {
+  margin-bottom: 0;
+}

@@ -1,6 +1,8 @@
 @import url("../css/cdn.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/design.css");
 
 * {
   box-sizing: border-box;
@@ -18,6 +20,7 @@
  padding: 0 15px;
 }
 .title {
+ text-transform: uppercase;
  text-align: center;
  font-family: 'Raleway';
  font-style: normal;
@@ -25,11 +28,13 @@
  color: #212121;
  line-height: 42px;
 }
-.line {
+.title:after {
+  content: ' ';
   width: 64px;
   height: 2px;
   border: 1px solid #E72424;
-  margin: 34px auto 40px;
+  margin: 34px auto 34px;
+  display: block;
 }
 .text {
   font-size: 14px;
@@ -45,3 +50,4 @@
   display: flex;
   justify-content: space-between;
   }
+

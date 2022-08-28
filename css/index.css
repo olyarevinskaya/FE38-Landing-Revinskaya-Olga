@@ -2,7 +2,7 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
-@import url("../css/design.css");
+@import url("../css/axure.css");
 
 * {
   box-sizing: border-box;
@@ -49,5 +49,7 @@
 .wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
   }
 

@@ -3,6 +3,7 @@
 }
 .card {
   width: 350px;
+  margin: 0 15px;
  }
 .card-img {
   width: 70px;
@@ -41,5 +42,4 @@
   text-align: center;
   line-height: 19px;
   color: #0000000;
-  margin-bottom: 26px;
-}
+ }

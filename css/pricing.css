@@ -8,8 +8,7 @@
 .list_tarif {
  padding: 12px 0;
  width: 340px;
- font-family: Open Sans;
- font-style: bold;
+ font-family: 'Open Sans';
  color: #fff;
  text-align: center;
  font-size: 20px;
@@ -20,8 +19,8 @@
 .list_price {
  padding: 26px 0;
  width: 340px;
- font-family: Raleway;
- font-style: Bold;
+ font-family: 'Raleway';
+ /* font-style: Bold; */
  font-size: 35px;
  line-height: 41px;
  color: #fff;
@@ -33,8 +32,8 @@
 .list_application {
   padding: 14px 0;
   width: 340px;
-  font-family: Open Sans;
-  font-style: SemiBold;
+  font-family: 'Open Sans';
+  /* font-style: SemiBold; */
   font-size: 14px;
   line-height: 19px;
   color: #fff;
@@ -46,8 +45,8 @@
 .list_free {
   padding: 10px 0;
   width: 340px;
-  font-family: Open Sans;
-  font-style: Regular;
+  font-family: 'Open Sans';
+  /* font-style: Regular; */
   font size: 14px;
   line-height: 19px;
   color: #86878B;

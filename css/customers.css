@@ -3,8 +3,7 @@
 }
 .card-customers {
   width: 298px;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 15px;
 }
 .card-customers_text {
   background-color: #E2E2E2;

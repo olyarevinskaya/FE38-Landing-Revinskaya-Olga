@@ -3,7 +3,11 @@
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/axure.css");
-
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/footer.css");
+@import url("../css/main.css");
+@import url("../css/contact.css");
 * {
   box-sizing: border-box;
   list-style: none;
@@ -32,7 +36,7 @@
   content: ' ';
   width: 64px;
   height: 2px;
-  border: 1px solid #E72424;
+  background-color: #E72424;
   margin: 34px auto 34px;
   display: block;
 }
@@ -51,5 +55,4 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 -15px;
-  }
-
+ }

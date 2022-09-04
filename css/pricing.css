@@ -4,6 +4,11 @@
 }
 .list {
   margin: 0 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.list:hover {
+  transform: translate(0, -20px);
 }
 .list_tarif {
  padding: 12px 0;

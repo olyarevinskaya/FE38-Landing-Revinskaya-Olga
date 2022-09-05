@@ -1,3 +1,36 @@
 .contact {
   padding: 80px 0;
 }
+.contact-button {
+  display: flex;
+  margin: auto;
+  width: 166px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #EC7979;
+  border: 1px solid #FFFFFF;
+  transition: 0.2s;
+}
+.contact-button:hover {
+  transform: scale(1.1);
+} 
+.contact-form {
+  display: flex;
+  width: 100%;
+}
+.contact-form-content {
+  display: block;
+}
+.message {
+  display: block;
+}
+#message {
+  width: 478px;
+  height: 243px;
+}

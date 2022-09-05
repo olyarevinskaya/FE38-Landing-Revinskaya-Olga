@@ -20,12 +20,12 @@
 .contact-button:hover {
   transform: scale(1.1);
 } 
-.contact-form {
+/* .contact-form {
   display: flex;
   width: 100%;
-}
+} */
 .contact-form-content {
-  display: block;
+  display: flex;
 }
 .message {
   display: block;

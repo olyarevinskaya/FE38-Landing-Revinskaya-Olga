@@ -1,17 +1,10 @@
-.text {
-  font-size: 14px;
-  text-align: center;
-  color: #868788;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px;
-  margin-bottom: 68px;
+.awesome {
+  padding: 80px 0;
 }
 .card {
   width: 350px;
-  margin-bottom: 20px;
-}
+  margin: 0 15px;
+ }
 .card-img {
   width: 70px;
   height: 70px;
@@ -23,6 +16,18 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+.fa-lightbulb {
+  font-size: 35px;
+  color: coral;
+}
+.fa-keyboard {
+  font-size: 35px;
+  color: coral;
+}
+.fa-bolt-lightning{
+  font-size: 35px;
+  color: coral;
 }
 .card-img img {
   /* width: 100%; */
@@ -40,7 +45,7 @@
   line-height: 27px;
   line-height: 27px;
 }
-.card-text {
+.card-text p {
   font-family: 'Open Sans';
   font-style: normal;
   /* font-weight: 400; */
@@ -49,4 +54,4 @@
   text-align: center;
   line-height: 19px;
   color: #0000000;
-}
+ }

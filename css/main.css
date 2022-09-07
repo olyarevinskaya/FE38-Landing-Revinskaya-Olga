@@ -1,0 +1,175 @@
+.axit-main {
+  padding: 97px 0;
+  background-image: url("../img/joe-ciciarelli-stvU4UUrQ88-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: cover;
+  position:relative;
+}
+.axit-main::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.axit-container {
+  margin: auto;
+  max-width: 1170px; 
+  padding: 0 15px;
+  position: relative;
+  z-index: 3;
+}
+.axit-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+ }
+.axit-description {
+  width: 534px;
+  margin: 0 15px;
+ }
+.axit-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-bottom: 42px;
+  text-transform: uppercase;
+}
+.axit-title::after {
+  content: 'it';
+  width: 129px;
+  height: 70px;
+  color: #EC7979;;
+  display: inline-block;
+  margin-left: -9px;
+  text-transform: uppercase;
+}
+.axit-title-description {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.axit-title-description:after {
+  content: ' ';
+  width: 64px;
+  height: 2px;
+  background-color: #fff;
+  margin: 32px;
+  margin-left: 0;
+  display: block;
+}
+.main-text {
+  margin-bottom: 50px;
+  color: rgba(236, 229, 229, 0.85);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  order: 1;
+}
+.main-link {
+  width: 135px;
+  margin-left: 0;
+  border: 1px solid #fff;
+  transition: 0.2s;
+  z-index: 2;
+ }
+ .main-link:hover {
+  background-color: #fff;
+}
+.main-link_a {
+  display: block;
+  margin: 11px 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.2s;
+  z-index: 2;
+  }
+  .main-link_a:hover {
+    color: black;
+  }
+ .form {
+  margin: 0 15px;
+ }
+  .main-form {
+    width: 370px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+ .title-main-form {
+  text-align: center;
+  margin-bottom: 30px;
+ }
+  .form-title {
+  font-family: 'Open Sans';
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 44px;
+}
+ .text-free {
+   font-family: 'Open Sans';
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   align-items: center;
+   color: #EC7979;
+ } 
+.form-content {
+  padding: 20px 59px 60px;
+}
+.form-item {
+  margin-bottom: 10px;
+  }
+.form-item:last-child {
+  margin-bottom: 0;
+}
+label {
+ color: #BDBDBD;
+ display: block;
+ text-transform: capitalize;
+ margin-bottom: 5px;
+}
+input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #BDBDBD;
+}
+.axit-form-button {
+  display: block;
+  width: 100%;
+  height: 54px;
+  border: 0;
+  background-color: #EC7979;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 54px;
+}

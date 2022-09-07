@@ -1,0 +1,64 @@
+.pricing {
+  padding: 80px 0;
+  background-color: #F5F5F5;
+}
+.list {
+  margin: 0 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.list:hover {
+  transform: translate(0, -20px);
+}
+.list_tarif {
+ padding: 12px 0;
+ width: 340px;
+ font-family: 'Open Sans';
+ color: #fff;
+ text-align: center;
+ font-size: 20px;
+ line-height: 27px;
+ background-color: #333333;
+ margin-bottom: 2px;
+}
+.list_price {
+ padding: 26px 0;
+ width: 340px;
+ font-family: 'Raleway';
+ /* font-style: Bold; */
+ font-size: 35px;
+ line-height: 41px;
+ color: #fff;
+ text-align: center;
+ background-color: #333333;
+ margin-bottom: 2px;
+
+}
+.list_application {
+  padding: 14px 0;
+  width: 340px;
+  font-family: 'Open Sans';
+  /* font-style: SemiBold; */
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  text-align: center;
+  background-color: #333333;
+  margin-bottom: 4px;
+
+}
+.list_free {
+  padding: 10px 0;
+  width: 340px;
+  font-family: 'Open Sans';
+  /* font-style: Regular; */
+  font size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  text-align: center;
+  margin-bottom: 4px;
+  background-color: #fff;
+}
+.list_free:last-child {
+  margin-bottom: 0;
+}

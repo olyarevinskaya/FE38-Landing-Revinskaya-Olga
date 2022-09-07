@@ -1,0 +1,44 @@
+.footer {
+  padding: 30px 0;
+  background-color: #000000;
+}
+.footer-list {
+  display: flex;
+  width: 317px;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto 18px;
+}
+.footer-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.5)
+}
+.footer-list-item {
+  transition: 0.2s;
+}
+#footer-facebook:hover {
+  transform: scale(1.2);
+}
+#footer-twitter:hover {
+  transform: scale(1.2);
+}
+#footer-google:hover {
+  transform: scale(1.2);
+}
+#footer-pinterest:hover {
+  transform: scale(1.2);
+}
+#footer-instagram:hover {
+  transform: scale(1.2);
+}
+#footer-stumbleupon:hover {
+  transform: scale(1.2);
+}
+#footer-wifi:hover {
+  transform: scale(1.2);
+}

@@ -1,7 +1,5 @@
 .axure {
   padding: 58px 0;
-  /* max-width: 1400px; */
-  /* height: 326px; */
   background-image: url("../img/town.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -65,12 +63,11 @@
 }
 .axure-link_a {
   display: block;
-  margin: 11px 0;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 42px;
   text-align: center;
   color: #fff;
   text-transform: capitalize;

@@ -17,6 +17,18 @@
   align-items: center;
   margin-bottom: 30px;
 }
+.fa-lightbulb {
+  font-size: 35px;
+  color: coral;
+}
+.fa-keyboard {
+  font-size: 35px;
+  color: coral;
+}
+.fa-bolt-lightning{
+  font-size: 35px;
+  color: coral;
+}
 .card-img img {
   /* width: 100%; */
   /* height: 100%;

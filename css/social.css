@@ -39,52 +39,38 @@
   transition: 0.2s;
   margin: 0 15px;
 }
-.fa-facebook-f {
-  transition: 0,2s;
+.social-list-item * {
+  width: 24px;
+  color: grey;
 }
-.fa-facebook-f:hover {
+.social-list-item i {
+  transition: 0.2s;
+}
+#social-facebook:hover {
   transform: scale(1,2) rotate(-15deg);
   color: #3b5998;
 }
-.fa-twitter {
-  transition: 0,2s;
-}
-.fa-twitter:hover {
+#social-twitter:hover {
   transform: scale(1,2) rotate(-15deg);
   color: #00acee;
 }
-.fa-google-plus-g {
-  transition: 0,2s;
-}
-.fa-google-plus-g:hover {
+#social-gogle:hover {
   transform: scale(1,2) rotate(-15deg);
   color: rgb(216, 59, 59);
 }
-.fa-pinteres {
-  transition: 0,2s;
-}
-.fa-pinterest:hover {
+#social-pinterest:hover {
   transform: scale(1,2) rotate(-15deg);
   color: rgb(241, 59, 59);
 }
-.fa-instagram {
-  transition: 0,2s;
-}
-.fa-instagram:hover {
+#social-instagram:hover {
   transform: scale(1,2) rotate(-15deg);
   color: rgb(65, 235, 206);
 }
-.fa-stumbleupon {
-  transition: 0,2s;
-}
-.fa-stumbleupon:hover {
+#social-stumbleupon:hover {
   transform: scale(1,2) rotate(-15deg);
   color: orangered;
 }
-.fa-wifi {
-  transition: 0,2s;
-}
-.fa-wifi:hover {
+#social-wifi:hover {
   transform: scale(1,2) rotate(-15deg);
   color: rgb(41, 172, 117);
 }

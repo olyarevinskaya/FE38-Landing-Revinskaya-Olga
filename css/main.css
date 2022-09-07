@@ -27,9 +27,11 @@
 .axit-wrap {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
  }
 .axit-description {
   width: 534px;
+  margin: 0 15px;
  }
 .axit-title {
   font-family: 'Roboto';
@@ -71,7 +73,6 @@
 }
 .main-text {
   margin-bottom: 50px;
-  /* color: #FFFFFF; */
   color: rgba(236, 229, 229, 0.85);
   font-family: 'Open Sans';
   font-style: normal;
@@ -105,54 +106,70 @@
   .main-link_a:hover {
     color: black;
   }
-  .axit-main-form {
-    display: flex;
-    /* flex-direction: column; */
+ .form {
+  margin: 0 15px;
+ }
+  .main-form {
     width: 370px;
     background-color: #fff;
     border-radius: 8px;
+    overflow: hidden;
   }
-  .axit-form-content {
-    display: block;
-    padding: 10px 59px 61px;
-  }
+ .title-main-form {
+  text-align: center;
+  margin-bottom: 30px;
+ }
   .form-title {
-    font-family: 'Open Sans';
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    align-items: center;
-    text-align: center;
-    color: #333333;
-    margin-bottom: 44px;
-   }
+  font-family: 'Open Sans';
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 44px;
+}
  .text-free {
    font-family: 'Open Sans';
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    align-items: center;
-    color: #EC7979;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 27px;
+   align-items: center;
+   color: #EC7979;
  } 
-
- .axit-form-button {
+.form-content {
+  padding: 20px 59px 60px;
+}
+.form-item {
+  margin-bottom: 10px;
+  }
+.form-item:last-child {
+  margin-bottom: 0;
+}
+label {
+ color: #BDBDBD;
+ display: block;
+ text-transform: capitalize;
+ margin-bottom: 5px;
+}
+input {
   display: block;
   width: 100%;
+  border: 0;
+  border-bottom: 1px solid #BDBDBD;
+}
+.axit-form-button {
+  display: block;
+  width: 100%;
+  height: 54px;
+  border: 0;
+  background-color: #EC7979;
+  color: #FFFFFF;
+  text-transform: capitalize;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  text-transform: capitalize;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  background-color: #EC7979;
-  border-radius: 0px 0px 8px 8px;  
-}
-.axit-input {
-  display: block;
-  width: 100%;
+  line-height: 54px;
 }

@@ -18,6 +18,27 @@
   text-align: center;
   color:rgba(255, 255, 255, 0.5)
 }
-.footer-item:hover {
+.footer-list-item {
+  transition: 0.2s;
+}
+#footer-facebook:hover {
+  transform: scale(1.2);
+}
+#footer-twitter:hover {
+  transform: scale(1.2);
+}
+#footer-google:hover {
+  transform: scale(1.2);
+}
+#footer-pinterest:hover {
+  transform: scale(1.2);
+}
+#footer-instagram:hover {
+  transform: scale(1.2);
+}
+#footer-stumbleupon:hover {
+  transform: scale(1.2);
+}
+#footer-wifi:hover {
   transform: scale(1.2);
 }

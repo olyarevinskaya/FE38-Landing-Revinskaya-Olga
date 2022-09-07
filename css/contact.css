@@ -1,36 +1,38 @@
 .contact {
   padding: 80px 0;
 }
-.contact-button {
-  display: flex;
-  margin: auto;
-  width: 166px;
-  font-family: 'Open Sans';
-  font-style: normal;
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #EC7979;
-  border: 1px solid #FFFFFF;
-  transition: 0.2s;
+.contact-item {
+  margin-bottom: 35px;
 }
-.contact-button:hover {
-  transform: scale(1.1);
-} 
-/* .contact-form {
-  display: flex;
-  width: 100%;
-} */
 .contact-form-content {
   display: flex;
+  justify-content: space-between;
+ }
+.form-text {
+   width: 40%;
 }
-.message {
-  display: block;
+.form-textarea {
+   width: 40%;
 }
-#message {
-  width: 478px;
-  height: 243px;
+textarea {
+  resize: none;
+  width: 100%;
+  height: 167px;
+  border: 0;
+  border-bottom: 1px solid #BDBDBD;
+}
+.contact-button {
+ display: block;
+ margin: 25px auto 0;
+ width: 166px;
+ height: 42px;
+ background-color: #EC7979;
+ border: 0;
+ color: #ffffff;
+ text-transform: capitalize;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 15px;
+ line-height: 20px;
 }

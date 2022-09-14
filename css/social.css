@@ -16,7 +16,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27px;
   align-items: center;
   text-transform: capitalize;
@@ -26,14 +26,14 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   align-items: center;
 }
 .social-icons {
   display: flex;
   width: 684px;
-  font-size: 24px;
+  font-size: 1.5rem;
   justify-content: space-between;
   cursor: pointer;
   transition: 0.2s;

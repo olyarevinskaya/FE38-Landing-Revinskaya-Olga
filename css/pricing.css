@@ -16,7 +16,7 @@
  font-family: 'Open Sans';
  color: #fff;
  text-align: center;
- font-size: 20px;
+ font-size: 1.25rem;
  line-height: 27px;
  background-color: #333333;
  margin-bottom: 2px;
@@ -26,7 +26,7 @@
  width: 340px;
  font-family: 'Raleway';
  /* font-style: Bold; */
- font-size: 35px;
+ font-size: 2.1875rem;
  line-height: 41px;
  color: #fff;
  text-align: center;
@@ -39,7 +39,7 @@
   width: 340px;
   font-family: 'Open Sans';
   /* font-style: SemiBold; */
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   color: #fff;
   text-align: center;
@@ -52,7 +52,7 @@
   width: 340px;
   font-family: 'Open Sans';
   /* font-style: Regular; */
-  font size: 14px;
+  font size: 0.875rem;
   line-height: 19px;
   color: #86878B;
   text-align: center;

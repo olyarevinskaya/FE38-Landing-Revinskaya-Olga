@@ -13,7 +13,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 35px;
   text-transform: uppercase;
   margin: 0 15px;
@@ -44,7 +44,7 @@
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 20px;
   text-align: center;
   text-transform: capitalize;

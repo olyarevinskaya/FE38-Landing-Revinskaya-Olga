@@ -29,7 +29,7 @@
  text-align: center;
  font-family: 'Raleway';
  font-style: normal;
- font-size: 36px;
+ font-size: 2.25rem;
  color: #212121;
  line-height: 42px;
 }
@@ -42,7 +42,7 @@
   display: block;
 }
 .text {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   color: #868788;
   font-family: 'Open Sans';
@@ -57,3 +57,26 @@
   flex-wrap: wrap;
   margin: 0 -15px;
  }
+ @media {max-width: 1200px;} {
+  html {
+    font-size: 14px;}
+  .container {
+    max-width: 970px;
+  }
+ }
+ @media {max-width: 992px;} {
+  html {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 750px;
+  }
+  .axit-conteiner {
+    max-width: 750px;
+  }
+  .axit-wrap {
+    display: flex;
+    align-items: center;
+  }
+ }
+

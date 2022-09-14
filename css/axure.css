@@ -29,7 +29,7 @@
   text-align: center;
   font-family: 'Raleway';
   font-style: normal;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #fff;
   line-height: 42px;
 }
@@ -42,7 +42,7 @@
   display: block;
 }
 .axure-text {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   color: #fff;
   font-family: 'Raleway';
@@ -66,7 +66,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 42px;
   text-align: center;
   color: #fff;

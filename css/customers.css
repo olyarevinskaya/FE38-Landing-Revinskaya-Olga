@@ -14,7 +14,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #86878B;
   padding: 9px 22px 6px;
   position: relative;
@@ -57,7 +57,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27px;
 }
 .post {
@@ -66,7 +66,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   color: #86878B;
   margin: 12px 0 0 20px;
